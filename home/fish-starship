@@ -1,0 +1,1 @@
+source (/home/razvan/.guix-profile/bin/starship init fish --print-full-init | psub)
