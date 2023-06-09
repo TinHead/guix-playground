@@ -27,9 +27,9 @@
                   (home-fish-configuration
                    (aliases '(("grep" . "grep --color=auto") ("ll" . "ls -l")
                               ("ls" . "ls -p --color=auto")))
-                   (config (list 
+                   (config (list (local-file 
 			     "fish-starship"
-			     )))))))
+			     ))))))))
 ;;                   (bash-profile (list (local-file
 ;;                                        "/home/razvan/.config/guix2/.bash_profile"
 ;;                                        "bash_profile"))))))))
